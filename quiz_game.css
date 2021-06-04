@@ -1,0 +1,48 @@
+body
+{
+background-image: linear-gradient(red,lavender,orange);
+background-size: cover;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: center;
+color: black;
+margin-left: 200px;
+margin-right: 200px;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 1000px;
+		float: none;
+		border-radius: 15px;
+		
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 90px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+
+#player1_score , #player2_score
+{
+	display: inline-block;
+	margin-left: 90px;
+}

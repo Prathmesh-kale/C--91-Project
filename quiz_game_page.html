@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Quiz Questions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+        <script src="quiz_game_page.js"></script>
+    </head>
+    <body onload="regulate()">
+<h2 id = "player1_name"></h2><span id = "player1_score"></span>
+<h2 id = "player2_name"></h2><span id = "player2_score"></span>
+        <center>
+    
+<div id = "quiz_head" >.</div>
+    <br>
+    <h2 style = "color:yellow;" id = "question_turn"></h2>
+    <br>
+    <h2 style = "color:yellow;" id = "answer_turn"></h2>
+    <br>
+    <div id = "output"></div>
+    <br>
+    <div id = "question_container" class = "container">
+    <h2 style = "color:yellow;" id = "number1_title">Number 1</h2>
+    <br>
+    <input id = "number1_text_input" class = "form-control" type="number" placeholder="Type a number">
+    <br>
+    <h2 style = "color:yellow;" id = "number2_title">Number 2</h2>
+    <br>
+    <input id = "number2_text_input" class = "form-control" type="number" placeholder="Type the second number">
+    <br>
+    <button id = "send_button" style = "width:150px;font-size: large;" class = "btn btn-success" onclick="send()">Send</button>
+    </div>
+        </center>
+        <script async src="https://drv.tw/inc/wd.js"></script>
+</body>
+</html>
